@@ -1,0 +1,11 @@
+.climate-click-svg-container {
+    display: flex;
+    height: 30px;
+    width: 32px;
+    place-self: center;
+}
+
+.climate-click-svg-style {
+    height: 30px;
+    width: 32px;
+}

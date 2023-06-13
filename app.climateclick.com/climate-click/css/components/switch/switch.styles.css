@@ -1,0 +1,53 @@
+.climate-click-switch {
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: 40px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.climate-click-switch input {
+    position: absolute;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.climate-click-switch input+span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eeeeee;
+    border: 2px solid #ffffff;
+    border-radius: 500px;
+}
+
+.climate-click-switch input:checked+span {
+    background: #eeeeee;
+}
+
+.climate-click-switch input+span:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    background: #b4b4b4;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #ffffff;
+}
+
+.climate-click-switch input:checked+span:before {
+    background: #015597;
+}
+
+.climate-click-switch input:checked+span:before {
+    left: 16px;
+}

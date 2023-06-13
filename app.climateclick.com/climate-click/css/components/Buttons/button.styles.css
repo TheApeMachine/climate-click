@@ -1,0 +1,165 @@
+:root {
+    --climate-click-system-ui: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+/* common */
+
+.climate-click-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 8px 8px;
+}
+
+/* detailed */
+
+.detailed-button-container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0;
+}
+
+.detailed-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.detailed-title {
+    margin-right: 2px;
+    font-family: var(--climate-click-system-ui);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70%;
+    color: #3E3E3E;
+}
+
+.detailed-info-logo {
+    margin-right: 5px;
+}
+
+.detailed-price {
+    margin-left: auto;
+    padding-right: 10px;
+    color: #015597;
+    font-family: var(--climate-click-system-ui);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.detailed-logo-image {
+    padding-bottom: 15%;
+    padding-right: 3%;
+}
+
+.detailed-switch {
+    padding-left: 5px;
+    padding-bottom: 50px;
+}
+
+.description {
+    margin-top: 1px;
+    font-family: var(--climate-click-system-ui);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60%;
+    text-justify: auto;
+    line-height: 130%;
+    padding-top: 1%;
+    color: #3E3E3E;
+}
+
+/* switch */
+
+.switch-button-container {
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0;
+}
+
+.switch-title {
+    font-family: var(--climate-click-system-ui);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70%;
+    color: #3E3E3E;
+}
+
+.switch-logo-image {
+    padding-left: 100px;
+}
+
+.switch {
+    padding-right: 10px;
+}
+
+.switch-price {
+    margin-right: auto;
+    color: #3E3E3E;
+    font-family: var(--climate-click-system-ui);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.switch-content {
+    padding-left: 10px;
+}
+
+/* checkbox */
+
+.checkbox-button-container {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 2px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 0;
+}
+
+.checkbox-title {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-family: var(--climate-click-system-ui);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70%;
+    line-height: 110%;
+    color: #3E3E3E;
+}
+
+.checkbox-price {
+    padding-left: 10px;
+    padding-right: 40px;
+    color: #015597;
+    font-family: var(--climate-click-system-ui);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+}
+
+.checkbox-logo-image {
+    padding-left: 30px;
+}
+
+.checkbox-logo-info {
+    padding-right: 1px;
+}
